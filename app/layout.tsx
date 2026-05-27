@@ -16,6 +16,7 @@ const _jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://irondistrict.com'),
   title: 'IRON DISTRICT // CrossFit',
   description: 'Crudo. Implacable. Resultados. Sin atajos. Sin excusas. Solo hierro.',
   openGraph: {
